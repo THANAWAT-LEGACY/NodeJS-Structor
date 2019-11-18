@@ -1,0 +1,15 @@
+npm init -y
+npm i -D @babel/cli @babel/core @babel/node @babel/preset-env
+
+npm i mssql --save
+npm i express --save
+npm i body-parser --save
+npm i compression --save
+npm i morgan --save
+npm i dotenv --save
+npm i cors --save
+npm i helmet --save
+npm i path --save
+npm i axios --save
+npm i lodash --save
+npm i moment --save
