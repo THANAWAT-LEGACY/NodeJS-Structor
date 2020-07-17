@@ -18,7 +18,7 @@ class RequestHandler {
 	}
 	sendSuccess(res, message, status) {
 		// this.logger.log(`a request has been made and proccessed successfully at: ${new Date()}`, 'info');
-		return (data) => {
+		return (data = null) => {
 			if (_.isUndefined(status)) {
 				status = true;
 			}
